@@ -8,3 +8,6 @@ Currently extractable assets are Texture2D, Sprite, AudioClip, Font, Mesh, and T
 Clone this repository, create virtual environment, install requirements with requirements.txt
 
 and run script Blue_Archive_AssetBundle_Extractor.py in Blue-Archive-AssetBundle-Extractor folder
+
+## Credits
+K0lb3 - UnityPy(https://github.com/K0lb3/UnityPy) creator, example code of UnityPy writer
