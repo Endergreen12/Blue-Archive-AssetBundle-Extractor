@@ -6,7 +6,7 @@ Extract all AssetBundle of Blue Archive
 
 ![image](https://github.com/user-attachments/assets/82265932-9893-4417-be59-05eb1ffc3036)
 
-Currently extractable assets are Texture2D, Sprite, AudioClip, Font, Mesh, and TextAsset
+Currently, Texture2D, Sprite, AudioClip, Mesh, and TextAsset are available for export
 
 ## How to use
 Clone this repository, create virtual environment, install requirements with requirements.txt
