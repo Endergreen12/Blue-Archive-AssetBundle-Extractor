@@ -14,4 +14,4 @@ Clone this repository, create virtual environment, install requirements with req
 and run script Blue_Archive_AssetBundle_Extractor.py in Blue-Archive-AssetBundle-Extractor folder
 
 ## Credits
-K0lb3 - Author of UnityPy(https://github.com/K0lb3/UnityPy)
+- [K0lb3](https://github.com/K0lb3) - Author of UnityPy(https://github.com/K0lb3/UnityPy)
