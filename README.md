@@ -9,9 +9,11 @@ Extract all AssetBundle of Blue Archive
 Currently, Texture2D, Sprite, AudioClip, Mesh, and TextAsset are available for export
 
 ## How to use
-Clone this repository, create virtual environment, install requirements with requirements.txt
+Clone this repository, change directory to Blue-Archive-AssetBundle-Extractor folder in this repository,
 
-and run script Blue_Archive_AssetBundle_Extractor.py in Blue-Archive-AssetBundle-Extractor folder
+create virtual environment, install requirements with requirements.txt
+
+and run script Blue_Archive_AssetBundle_Extractor.py
 
 ## Credits
 - [K0lb3](https://github.com/K0lb3) - Author of UnityPy(https://github.com/K0lb3/UnityPy)
