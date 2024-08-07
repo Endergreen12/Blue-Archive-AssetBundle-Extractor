@@ -23,13 +23,13 @@ for bundle_path in glob.glob(os.path.join(path, "*")):
             if not obj.type.name in export_target_type_array:
                 continue
             
-            full_path_dir_str = os.path.join(output_path, *path.split("/")[:-1]) # ƒtƒ@ƒCƒ‹–¼‚ğœ‚¢‚½ƒtƒ‹ƒpƒX
-            os.makedirs(full_path_dir_str, exist_ok=True) # ƒtƒHƒ‹ƒ_‚ğì‚é
+            full_path_dir_str = os.path.join(output_path, *path.split("/")[:-1]) # ãƒ•ã‚¡ã‚¤ãƒ«åã‚’é™¤ã„ãŸãƒ•ãƒ«ãƒ‘ã‚¹
+            os.makedirs(full_path_dir_str, exist_ok=True) # ãƒ•ã‚©ãƒ«ãƒ€ã‚’ä½œã‚‹
             
             data = obj.read()
             match obj.type.name:
                 case "Texture2D" | "Sprite":
-                    data.image.save(os.path.join(full_path_dir_str, data.name + ".png")) # Šg’£q‚ªPSD‚¾‚Æ—áŠO‚ªo‚é‚Ì‚Åsplitext‚ÅŠg’£q‚ğ‚Ì‚¼‚¢‚½ƒpƒX‚É.png‚ğ‚­‚Á‚Â‚¯‚Ä•Û‘¶
+                    data.image.save(os.path.join(full_path_dir_str, data.name + ".png")) # æ‹¡å¼µå­ãŒPSDã ã¨ä¾‹å¤–ãŒå‡ºã‚‹ã®ã§splitextã§æ‹¡å¼µå­ã‚’ã®ãã„ãŸãƒ‘ã‚¹ã«.pngã‚’ãã£ã¤ã‘ã¦ä¿å­˜
                     
                 case "AudioClip":
                     for name, audio_data in data.samples.items():
