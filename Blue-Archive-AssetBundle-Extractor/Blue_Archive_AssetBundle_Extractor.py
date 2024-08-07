@@ -14,6 +14,7 @@ path = input("Enter the path to AssetBundls: ").replace("\"", "")
 output_path = input("Enter the path to output: ").replace("\"", "")
 print("Copying start")
 print("If an exception occurs during copying, the log is displayed but the process is not aborted")
+print()
 
 for bundle_path in glob.glob(os.path.join(path, "*")):
     env = UnityPy.load(bundle_path)
@@ -46,7 +47,11 @@ for bundle_path in glob.glob(os.path.join(path, "*")):
                         f.write(bytes(data.script))
                     
         except Exception as e:
-            print(f"Exception occurred on {env.file.name}:")
+            print(f"Exception occurred while exporting {data.name}")
+            print(f"Bundle file name: {env.file.name}")
+            print(f"Asset type: {obj.type.name}")
+            print("Exception details:")
             print(e)
+            print()
             
 print("Done")
