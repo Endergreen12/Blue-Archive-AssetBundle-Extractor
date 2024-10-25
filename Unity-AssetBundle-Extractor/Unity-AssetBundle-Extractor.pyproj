@@ -12,8 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>Unity-AssetBundle-Extractor</Name>
     <RootNamespace>Unity-AssetBundle-Extractor</RootNamespace>
-    <InterpreterId>
-    </InterpreterId>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
