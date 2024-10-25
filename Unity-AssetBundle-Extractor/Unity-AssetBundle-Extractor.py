@@ -10,8 +10,9 @@ if UnityPy.__version__ != required_unitypy_version:
 
 export_target_type_array = ["Texture2D", "Sprite", "AudioClip", "Mesh", "TextAsset"]
 
-path = input("Enter the path to AssetBundls: ").replace("\"", "")
+path = input("Enter the path that contains AssetBundles: ").replace("\"", "")
 output_path = input("Enter the path to output: ").replace("\"", "")
+UnityPy.config.FALLBACK_UNITY_VERSION = input("Enter the version for fallback")
 print("Copying start")
 print("If an exception occurs during copying, the log is displayed but the process is not aborted")
 print()

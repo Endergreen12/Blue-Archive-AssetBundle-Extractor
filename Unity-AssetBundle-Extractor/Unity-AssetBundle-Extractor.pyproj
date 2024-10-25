@@ -3,15 +3,17 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>c8b440a2-8ef6-42f6-a181-7c2159964d8c</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>Blue_Archive_AssetBundle_Extractor.py</StartupFile>
+    <ProjectHome>
+    </ProjectHome>
+    <StartupFile>Unity-AssetBundle-Extractor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Blue-Archive-AssetBundle-Extractor</Name>
-    <RootNamespace>Blue-Archive-AssetBundle-Extractor</RootNamespace>
-    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <Name>Unity-AssetBundle-Extractor</Name>
+    <RootNamespace>Unity-AssetBundle-Extractor</RootNamespace>
+    <InterpreterId>
+    </InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Blue_Archive_AssetBundle_Extractor.py" />
+    <Compile Include="Unity-AssetBundle-Extractor.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
