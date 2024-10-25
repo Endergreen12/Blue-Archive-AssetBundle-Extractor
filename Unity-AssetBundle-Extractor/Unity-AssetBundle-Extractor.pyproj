@@ -5,7 +5,7 @@
     <ProjectGuid>c8b440a2-8ef6-42f6-a181-7c2159964d8c</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Unity-AssetBundle-Extractor.py</StartupFile>
+    <StartupFile>Unity_AssetBundle_Extractor.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,7 +24,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Unity-AssetBundle-Extractor.py" />
+    <Compile Include="Unity_AssetBundle_Extractor.py" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
